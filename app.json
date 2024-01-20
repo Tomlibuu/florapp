@@ -15,16 +15,28 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.mapsdemo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.example.mapsdemo",
+       "config": {
+         "googleMaps": {
+           "apiKey": "AIzaSyBN2ADfbiv8ltiyGOZ4RD_stUiaFvX55Nc"
+         }
+       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fdfb9b58-1198-4191-b85a-4419ba5b370b"
+      }
     }
   }
 }
